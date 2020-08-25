@@ -29,6 +29,8 @@ public class AlipayProperties {
     private static Map<String, String> propertiesMap = new HashMap<>();
 
     /**
+     * 是将配置文件转换成map集合
+     *
      * 加载属性
      */
     @PostConstruct
